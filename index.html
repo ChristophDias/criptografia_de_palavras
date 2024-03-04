@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ENIGMA</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="cabecalho">ENIGMA</header>
+        <main class="site">
+            <section class="site__comeco">
+                <h1>Digite seu texto</h1>
+                <p class="site__paragrafo">
+                    <img class="imagem__alerta" src="./assents/alerta.png">
+                    Apenas letras minúsculas e sem acento!
+                    <img class="imagem__alerta" src="./assents/alerta.png">
+                </p>
+                <textarea id="Mensagem" name="Mensagem" class="caixa-texto"></textarea>
+            </section>
+            <section class="site__botoes__imagem">
+                <button id="botaoCriptografar">Criptografar</button>
+                <button id="botaoDescriptografar">Descriptografar</button>
+                <button id="botaoCopiar">Copiar</button>
+                <img class="imagem__enigma" src="./assents/Enigma.jpg" alt="Maquina_Enigma">
+                <div class="links">
+                    <a class="apresentacao__links" href="https://www.linkedin.com/in/christoph-pereira-dias-berger/">
+                        <img src="./assents/linkedin.png">
+                        Linkedin
+                    </a>
+                    <a class="apresentacao__links" href="https://github.com/ChristophDias">
+                        <img src="./assents/github.png">
+                        Github
+                    </a>
+                </div>
+            </section>
+            <section class="site__resultado">
+                <label class="textoResultado">Resultado:</label>
+                <textarea id="resultado" name="resultado"></textarea>
+            </section>
+        </main>
+        <script src="app.js"></script>  
+        <footer></footer>
+    </body>
+
+</html>

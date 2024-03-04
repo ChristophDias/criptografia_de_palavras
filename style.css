@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+
+header{
+    background-color: white;
+    color: black;  
+}
+
+
+p{
+    color: red;
+}
+
+
+button{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+.cabecalho {
+    padding: 0% 0% 0% 50%;
+}
+
+.site{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site__paragrafo{
+    font-size: 1.5rem;
+}
+
+#Mensagem {
+    width: 31.25rem;
+    height: 18.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.3rem;
+}
+
+#resultado{
+    width: 31.25rem;
+    height: 18.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.3rem;  
+}
+
+.imagem__enigma{
+    width: 75%;
+}
+
+.site__botoes__imagem{
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links{
+    margin: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 3px solid #22D4FD;
+    width: 180px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site__resultado{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+a:hover {
+    background-color: #272727;
+}
+
+button:hover {
+    background-color: #22D4FD;
+}
+
+@media (max-width: 1700px) {
+    .site {
+        flex-direction: column;
+    }
+
+    #Mensagem {
+        width: 100%;
+    }
+
+    #resultado {
+        width: 150%;
+    }
+}
