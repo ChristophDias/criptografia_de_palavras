@@ -1,6 +1,6 @@
 function contemLetrasMaiusculasOuAcento(texto) {
     // Verifica se o texto contém letras maiúsculas ou acentos
-    return /[A-ZÁÉÍÓÚÀÈÌÒÙÂÊÎÔÛÄËÏÖÜÃÕÇ]/.test(texto);
+    return /[A-ZÁÉÍÓÚÀÈÌÒÙÂÊÎÔÛÄËÏÖÜÃÕÇáéíóúàèìòùâêîôûäëïöüãõ]/.test(texto);
 }
 
 function criptografar(texto) {
