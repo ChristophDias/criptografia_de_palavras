@@ -32,7 +32,7 @@ Extras:
 ## Como rodar a aplicação
 [Click aqui](https://christophdias.github.io/criptografia_de_palavras/)
 
-## Tecnologia usada
+## Tecnologias usadas
 ![image](https://github.com/ChristophDias/criptografia_de_palavras/assets/142109049/1444b045-07b9-4faf-bef5-a100311ea6a0)
 ![image](https://github.com/ChristophDias/criptografia_de_palavras/assets/142109049/a80d2316-efb2-4aad-aa81-e7f51386d447)
 ![image](https://github.com/ChristophDias/criptografia_de_palavras/assets/142109049/0cc40a35-910b-4be2-bb93-c83bfb18e91c)
