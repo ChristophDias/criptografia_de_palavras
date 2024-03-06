@@ -30,7 +30,7 @@ Extras:
 - Botão de copiar mensagem no resultado
 
 ## Como rodar a aplicação
-[Click aqui](https://github.com/ChristophDias/criptografia_de_palavras/deployments/github-pages)
+[Click aqui](https://christophdias.github.io/criptografia_de_palavras/)
 
 ## Tecnologia usada
 ![image](https://github.com/ChristophDias/criptografia_de_palavras/assets/142109049/1444b045-07b9-4faf-bef5-a100311ea6a0)
