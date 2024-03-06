@@ -1,7 +1,7 @@
 # Challenge ONE Iniciante em Programação
 Oracle + Alura Challenge
 
-##ENIGMA
+## ENIGMA
 
 Decodificador de texto JavaScript
 
